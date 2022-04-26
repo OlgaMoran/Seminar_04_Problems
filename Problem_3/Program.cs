@@ -24,11 +24,6 @@ void PrintArray(int[] Array)
         position++;
     }
 }
-
-int[] myArray = new int[12];
-FillArray(myArray);
-PrintArray(myArray);
-
 int SumPos(int[] Array)
 {
     int lengthPos = Array.Length;
@@ -39,7 +34,6 @@ int SumPos(int[] Array)
     }
     return sum;
 }
-
 int SumNeg(int[] Array)
 {
     int lengthNeg = Array.Length;
@@ -51,5 +45,8 @@ int SumNeg(int[] Array)
     return sum;
 }
 
+int[] myArray = new int[12];
+FillArray(myArray);
+PrintArray(myArray);
 Console.WriteLine("sum of positive numbers: " + SumPos(myArray));
 Console.WriteLine("sum of negative numbers: " + SumNeg(myArray));

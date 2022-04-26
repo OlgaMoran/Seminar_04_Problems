@@ -1,4 +1,4 @@
-﻿// 4. Написать программу замену элементов массива на противоположные
+﻿// 4. Написать программу замену элементов массива на противоположные.
 
 void FillArray(int[] Array)
 {
@@ -20,20 +20,18 @@ void PrintArray(int[] Array)
         position++;
     }
 }
-
-int[] myArray = new int[10];
-FillArray(myArray);
-PrintArray(myArray);
-Console.WriteLine();
-
 void Opposite(int[] Array)
 {
     int x = Array.Length;
-    for (int i = 0; i < x; i++) 
+    for (int i = 0; i < x; i++)
     {
         Array[i] = -Array[i];
     }
 }
 
+int[] myArray = new int[5];
+FillArray(myArray);
+PrintArray(myArray);
+Console.WriteLine();
 Opposite(myArray);
 PrintArray(myArray);

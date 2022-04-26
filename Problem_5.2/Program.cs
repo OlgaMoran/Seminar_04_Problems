@@ -24,32 +24,26 @@ void PrintArray(int[] col)
     }
 }
 
-int IsItThere(int[] collection, int find)
+int IsItThere(int[] array, int find)
 {
-    int count = collection.Length;
-    int index = 0;
-    int position = 0;
-    while (index < count)
+    int count = array.Length;
+    int pos = 0;
+    for (int i = 0; i < count; i++)
     {
-        if (collection[index] == find)
+        if (array[i] == find)
         {
-            position = index;
+            pos++;
             break;
         }
-        index++;
     }
-    return position;
+    return pos;
 }
 
 int[] myArray = new int[10];
-
 FillArray(myArray);
 PrintArray(myArray);
 Console.WriteLine();
 
-int pos = IsItThere(myArray, 3);
-if (pos == 0)
-{
-    Console.WriteLine("-1");
-}
+int result = IsItThere(myArray, 5);
+if (result == 0) Console.WriteLine("-1");
 else Console.WriteLine("1");

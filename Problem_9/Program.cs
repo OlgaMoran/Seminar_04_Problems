@@ -5,14 +5,10 @@
 // "средний" элемент, оставшийся без пары возводится в квадрат.
 
 int[] array = { 1, 2, 3, 4, 5 };
-
 int n = array.Length - 1;
-int index = 0;
 int product = 0;
-while (index <= n)
+for (int i = 0; i <= n; i++, n = n - 1) 
 {
-    product = array[index] * array[n];
+    product = array[i] * array[n];
     Console.WriteLine(product);
-    index++;
-    n = n - 1;
 }

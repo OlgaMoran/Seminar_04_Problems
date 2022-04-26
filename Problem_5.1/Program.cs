@@ -6,25 +6,19 @@
 int IsItThere(int[] array, int find)
 {
     int length = array.Length;
-    int index = 0;
     int count = 0;
-    while (index < length)
+    for (int index = 0; index < length; index++)
     {
         if (array[index] == find)
         {
-            count = index;
+            count++;
             break;
         }
-        index++;
     }
     return count;
 }
 
 int[] myArray = { 10, 34, 9, 634, 28, 93, 74, 9, 399 };
-
-int pos = IsItThere(myArray, 4);
-if (pos == 0)
-{
-    Console.WriteLine("-1");
-}
+int result = IsItThere(myArray, 28);
+if (result == 0) Console.WriteLine("-1");
 else Console.WriteLine("1");

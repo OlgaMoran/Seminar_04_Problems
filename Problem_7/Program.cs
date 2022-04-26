@@ -24,15 +24,10 @@ void PrintArray(int[] array)
 int IsItThere(int[] array, int min, int max)
 {
     int length = array.Length;
-    int index = 0;
     int count = 0;
-    while (index < length)
+    for (int i = 0; i < length; i++)
     {
-        if (array[index] >= min & array[index] <= max)
-        {
-            count++;
-        }
-        index++;
+        if (array[i] >= min & array[i] <= max) count++;
     }
     return count;
 }

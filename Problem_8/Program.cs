@@ -26,11 +26,6 @@ FillArray(myArray);
 PrintArray(myArray);
 
 int x = myArray.Length;
-int pos = 1;
 int sum = 0;
-while (pos < x)
-{
-    sum = sum + myArray[pos];
-    pos = pos + 2;
-}
+for (int pos = 1; pos < x; pos = pos + 2) sum = sum + myArray[pos];
 Console.WriteLine($"Sum: {sum}");

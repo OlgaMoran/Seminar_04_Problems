@@ -32,7 +32,7 @@ double MinArray(double[] array)
     return min;
 }
 
-double[] myArray = { 10.1, -34, 9.3, 6, -28 };
+double[] myArray = { 20, -3, 9.3, 6, -28 };
 double Max = MaxArray(myArray);
 double Min = MinArray(myArray);
 double result = Max - Min;
