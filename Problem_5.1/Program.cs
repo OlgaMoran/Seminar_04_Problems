@@ -1,44 +1,30 @@
-﻿// 5. Определить, присутствует ли в заданном массиве некоторое число.
+﻿// 5.1. Определить, присутствует ли в заданном массиве некоторое число.
 
 // Уточнение от "заказчика": если нет элемента - показать «-1».
+// Примечание: поиск выполняется в конкретном массиве.
 
-//int[] myArray = { 159, 38, 91, 6, 27, 114, 74, 6, 399 };
-//int length = myArray.Length;
-
-// string searchNum(int[] Array, int find)
-// {
-// int Length = Array.Length;
-// int index = 0;
-// while (index < Length)
-// {
-//     if (Array[index] == find)
-//     {
-//         int result = 1;
-//         break;
-//     }
-//     index++;
-// }
-// return result; 
-// }
-
-// string res = searchNum(myArray, 6);
-
-int[] array = { 10, 34, 9, 634, 28, 93, 74, 9, 399 };
-int n = array.Length;
-int find = 9;
-int index = 0;
-int count = 0;
-
-while (index < n)
+int IsItThere(int[] array, int find)
 {
-    if (array[index] == find)
+    int length = array.Length;
+    int index = 0;
+    int count = 0;
+    while (index < length)
     {
-        count++;
+        if (array[index] == find)
+        {
+            count = index;
+            break;
+        }
         index++;
     }
+    return count;
 }
-if (count == 0)
+
+int[] myArray = { 10, 34, 9, 634, 28, 93, 74, 9, 399 };
+
+int pos = IsItThere(myArray, 4);
+if (pos == 0)
 {
-    Console.WriteLine("No!");
+    Console.WriteLine("-1");
 }
-else Console.WriteLine("YES!");
+else Console.WriteLine("Found it!");
