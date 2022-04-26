@@ -1,0 +1,15 @@
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\bin\Debug\net6.0\Problem_7.exe
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\bin\Debug\net6.0\Problem_7.deps.json
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\bin\Debug\net6.0\Problem_7.runtimeconfig.json
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\bin\Debug\net6.0\Problem_7.dll
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\bin\Debug\net6.0\Problem_7.pdb
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.csproj.AssemblyReference.cache
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.AssemblyInfoInputs.cache
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.AssemblyInfo.cs
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.csproj.CoreCompileInputs.cache
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.dll
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\refint\Problem_7.dll
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.pdb
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\Problem_7.genruntimeconfig.cache
+D:\IT\GB_Разработчик\C#\Семинары\Seminar_4_Problems\Problem_7\obj\Debug\net6.0\ref\Problem_7.dll
