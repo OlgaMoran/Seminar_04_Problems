@@ -3,24 +3,21 @@
 // Уточнение от "заказчика": если нет элемента - показать «-1», если есть - "1".
 // Примечание: поиск выполняется в массиве, созданным с помощью метода.
 
-void FillArray(int[] collection)
+void FillArray(int[] Array)
 {
-    int length = collection.Length;
-    int index = 0;
-    while (index < length)
+    int length = Array.Length;
+    for (int index = 0; index < length; index++)
     {
-        collection[index] = new Random().Next(1, 10);
-        index++;
+        Array[index] = new Random().Next(1, 10);
     }
 }
-void PrintArray(int[] col)
+
+void PrintArray(int[] array)
 {
-    int count = col.Length;
-    int position = 0;
-    while (position < count)
+    int count = array.Length;
+    for (int position = 0; position < count; position++)
     {
-        Console.WriteLine(col[position]);
-        position++;
+        Console.WriteLine(array[position]);
     }
 }
 

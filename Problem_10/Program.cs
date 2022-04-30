@@ -4,30 +4,21 @@
 double MaxArray(double[] array)
 {
     int length = array.Length;
-    int index = 0;
     double max = array[0];
-    while (index < length)
+    for (int index = 0; index < length; index++)
     {
-        if (array[index] > max)
-        {
-            max = array[index];
-        }
-        index++;
+        if (array[index] > max) max = array[index];
     }
     return max;
 }
 double MinArray(double[] array)
 {
     int count = array.Length;
-    int position = 0;
     double min = array[0];
-    while (position < count)
+    for (int position = 0; position < count; position++)
     {
-        if (array[position] < min)
-        {
-            min = array[position];
-        }
-        position++;
+        if (array[position] < min) min = array[position];
+
     }
     return min;
 }

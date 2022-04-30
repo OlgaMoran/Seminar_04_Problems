@@ -3,21 +3,17 @@
 void FillArray(int[] Array)
 {
     int length = Array.Length;
-    int index = 0;
-    while (index < length)
+    for (int index = 0; index < length; index++)
     {
-        Array[index] = new Random().Next(0, 5);
-        index++;
+        Array[index] = new Random().Next(0, 6);
     }
 }
 void PrintArray(int[] array)
 {
     int count = array.Length;
-    int position = 0;
-    while (position < count)
+    for (int position = 0; position < count; position++)
     {
         Console.WriteLine(array[position]);
-        position++;
     }
 }
 

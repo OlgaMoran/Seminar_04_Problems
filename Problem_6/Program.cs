@@ -4,21 +4,17 @@
 void FillArray(int[] Array)
 {
     int length = Array.Length;
-    int index = 0;
-    while (index < length)
+    for (int index = 0; index < length; index++)
     {
         Array[index] = new Random().Next(100, 1000);
-        index++;
     }
 }
 void PrintArray(int[] array)
 {
     int count = array.Length;
-    int position = 0;
-    while (position < count)
+    for (int position = 0; position < count; position++)
     {
         Console.WriteLine(array[position]);
-        position++;
     }
 }
 
@@ -27,13 +23,11 @@ FillArray(Array);
 PrintArray(Array);
 
 int x = Array.Length;
-int i = 0;
 int odd = 0;
 int even = 0;
-while (i < x)
+for (int i = 0; i < x; i++)
 {
     if (Array[i] % 2 == 0) even++;
-    else odd++;
-    i++;
+    else odd++;    
 }
 Console.WriteLine($"even: {even}, odd: {odd}");

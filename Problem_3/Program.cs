@@ -7,21 +7,17 @@
 void FillArray(int[] Array)
 {
     int length = Array.Length;
-    int index = 0;
-    while (index < length)
+    for (int index = 0; index < length; index++)
     {
         Array[index] = new Random().Next(-10, 11);
-        index++;
     }
 }
-void PrintArray(int[] Array)
+void PrintArray(int[] array)
 {
-    int count = Array.Length;
-    int position = 0;
-    while (position < count)
+    int count = array.Length;
+    for (int position = 0; position < count; position++)
     {
-        Console.WriteLine(Array[position]);
-        position++;
+        Console.WriteLine(array[position]);
     }
 }
 int SumPos(int[] Array)
