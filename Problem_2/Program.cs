@@ -8,7 +8,6 @@ void FillArray(int[] Array)
         Array[index] = new Random().Next(0, 2);
     }
 }
-
 void PrintArray(int[] array)
 {
     int count = array.Length;
